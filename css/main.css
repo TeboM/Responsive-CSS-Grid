@@ -1,0 +1,21 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Monsterrat';
+}
+
+h1 {
+  margin: 5rem;
+}
+
+.row {
+  margin: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Monsterrat';
+}
+
+h1 {
+    margin: 5rem;
+}
+
+    .row {
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    }
+    
+
